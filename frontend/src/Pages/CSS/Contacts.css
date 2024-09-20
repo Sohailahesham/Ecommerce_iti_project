@@ -1,0 +1,45 @@
+.contact-us{
+    width: 100%;
+    height: fit-content;
+    background-color: #fce3fe;
+    padding: 100px 0;
+    margin-bottom: 200px;
+    .contact-us-container{
+        width: 580px;
+        height: 600px;
+        background-color: white;
+        margin: auto;
+        padding: 40px 60px 150px;
+        h1{
+            margin: 20px 0;
+        }
+        .contact-us-fields{
+            display: flex;
+            flex-direction: column;
+            gap: 29px;
+            margin-top: 30px;
+            input, textarea{
+                padding: 20px 30px;
+                outline: none;
+                border: 1px solid #c9c9c9;
+                color: #5c5c5c;
+                font-size: 18px;
+            }
+        }
+        button{
+            color: white;
+            background-color: #ff4141;
+            margin-top: 30px;
+            border: 0;
+            font-size: 20px;
+            padding: 10px;
+            width: 100%;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        button:hover{
+            background-color: rgba(0, 0, 0, 0.605);
+        }
+    }
+}

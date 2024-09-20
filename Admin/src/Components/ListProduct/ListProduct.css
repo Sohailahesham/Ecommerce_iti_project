@@ -1,0 +1,29 @@
+.listProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+
+.listproduct-product-img {
+    height: 80px;
+}
+
+.listproduct-remove-icon {
+    cursor: pointer;
+    margin: auto;
+}
+
+table,
+thead,
+tr,
+td,
+th,
+tbody {
+    text-align: center;
+}

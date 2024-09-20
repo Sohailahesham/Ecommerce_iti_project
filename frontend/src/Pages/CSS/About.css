@@ -1,0 +1,16 @@
+header {
+    height: 40vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    padding: 200px 0;
+    text-align: center;
+    h1{
+        color: #090909;
+        font-size: 70px;
+        font-weight: 600;
+    }
+    p{
+        color: #545454;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+}
